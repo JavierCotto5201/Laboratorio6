@@ -58,4 +58,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textV"
         tools:layout_editor_absoluteY="507dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/side_nav_bar"
+        android:text="Mostrar"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="622dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

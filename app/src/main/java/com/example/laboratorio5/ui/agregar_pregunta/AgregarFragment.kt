@@ -18,12 +18,6 @@ class AgregarFragment : Fragment() {
 
     private lateinit var galleryViewModel: AgregarViewModel
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        //var pregunta =""
-        //val preguntas = ArrayList<String>()
-        //preguntas.add("Tiene algun comentario que agregar")
-        //preguntas.add("Que le parecio nuestro servicio(1 es lo más bajo y 5 lo más alto)")
-
-
         agregar_preg.setOnClickListener{
             //pregunta= this.editText.text.toString()
             //preguntas.add(pregunta)
