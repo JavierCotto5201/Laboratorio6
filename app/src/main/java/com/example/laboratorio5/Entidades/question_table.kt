@@ -1,5 +1,5 @@
 package com.example.laboratorio5.Entidades
 
-class Pregunta {
+class question_table {
 
 }

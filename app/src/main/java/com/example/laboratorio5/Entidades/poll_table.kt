@@ -1,4 +1,6 @@
 package com.example.laboratorio5.Entidades
 
-class Encuesta {
+class poll_table {
+    val id;
+    val
 }
