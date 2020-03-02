@@ -35,10 +35,10 @@ class ConexionSQLiteHelper (context: Context): SQLiteOpenHelper(context,
 
     }
     fun insert(question: List<question>){
-        values.put(question_table.question.ID,question[0].getID())
-        values.put(question_table.question.Name,question[0].getName())
-        values.put(question_table.question.type,question[0].getType())
-        values.put(question_table.question.default,question[0].getDefault())
+        values.put(question_table.question.ID,question[0].toString())
+        values.put(question_table.question.Name,question[0].toString())
+        values.put(question_table.question.type,question[0].toString())
+        values.put(question_table.question.default,question[0].toString())
         db.insert(question_table.question.tabla, null, values)
     }
 }
